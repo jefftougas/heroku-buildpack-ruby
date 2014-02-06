@@ -2,6 +2,6 @@
 
 require 'pathname'
 
-raise "stop stop stop!"
+#raise "stop stop stop!"
 release = Pathname.new(ARGV.first).join("tmp/heroku-buildpack-release-step.yml")
 puts release.read if release.exist?

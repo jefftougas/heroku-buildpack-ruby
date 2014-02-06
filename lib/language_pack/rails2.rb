@@ -46,6 +46,7 @@ class LanguagePack::Rails2 < LanguagePack::Ruby
   def compile
     instrument "rails2.compile" do
       install_plugins
+      raise "stop stop stop!"
       super
     end
   end
